@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(120deg, greenyellow,hotpink,white, lightcoral);
+    min-height: 100vh;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.tabs input {
+    display: none;
+}
+
+.tabs img {
+    width: 160px;
+    height: 210px;
+    object-fit: cover;
+}
+#all:checked ~ .englishleague,
+#all:checked ~ .spanishleague,
+#all:checked ~ .bundesleague,
+#all:checked ~ .league1,
+#all:checked ~ .league2,
+#all:checked ~ .jupilerleague,
+#all:checked ~ .englishleague2  {
+    opacity: 1;
+    transition: .4s;
+}
+
+
+#englishleague:checked ~ .spanishleague,
+#englishleague:checked ~ .bundesleague,
+#englishleague:checked ~ .league1,
+#englishleague:checked ~ .league2,
+#englishleague:checked ~ .jupilerleague,
+#englishleague:checked ~ .englishleague2 {
+    opacity: 0.4;
+    transition: .4s;
+}
+#spanishleague:checked ~ .englishleague,
+#spanishleague:checked ~ .bundesleague,
+#spanishleague:checked ~ .league1,
+#spanishleague:checked ~ .league2,
+#spanishleague:checked ~ .jupilerleague,
+#spanishleague:checked ~ .englishleague2 {
+    opacity: 0.4;
+    transition: .4s;
+}
+
+#bundesleague:checked ~ .englishleague,
+#bundesleague:checked ~ .spanishleague,
+#bundesleague:checked ~ .league1,
+#bundesleague:checked ~ .league2,
+#bundesleague:checked ~ .jupilerleague,
+#bundesleague:checked ~ .englishleague2 {
+    opacity: 0.4;
+    transition: .4s;
+}
+
+
+#league1:checked ~ .englishleague,
+#league1:checked ~ .spanishleague,
+#league1:checked ~ .bundesleague,
+#league1:checked ~ .league2,
+#league1:checked ~ .jupilerleague,
+#league1:checked ~ .englishleague2  {
+    opacity: 0.4;
+    transition: .4s;
+}
+
+#league2:checked ~ .englishleague,
+#league2:checked ~ .spanishleague,
+#league2:checked ~ .bundesleague,
+#league2:checked ~ .league1,
+#league2:checked ~ .jupilerleague,
+#league2:checked ~ .englishleague2  {
+    opacity: 0.4;
+    transition: .4s;
+}
+
+#jupilerleague:checked ~ .englishleague,
+#jupilerleague:checked ~ .spanishleague,
+#jupilerleague:checked ~ .bundesleague,
+#jupilerleague:checked ~ .league1,
+#jupilerleague:checked ~ .league2,
+#jupilerleague:checked ~ .englishleague2 {
+    opacity: 0.4;
+    transition: .4s;
+}
+#englishleague2:checked ~ .englishleague,
+#englishleague2:checked ~ .spanishleague,
+#englishleague2:checked ~ .bundesleague,
+#englishleague2:checked ~ .league1,
+#englishleague2:checked ~ .league2,
+#englishleague2:checked ~ .jupilerleague {
+    opacity: 0.4;
+    transition: .4s;
+}
+
+
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.44);
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+
+.labels label {
+    padding: 15px 30px;
+    background: linear-gradient(greenyellow,hotpink, lightcoral);
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.images {
+    width: 100%;
+    height: 400px;
+    background: rgba(0,0,0,0.44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
